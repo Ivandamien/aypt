@@ -204,6 +204,7 @@ body {
 .section-title {
   --color: var(--radical-red);
   text-align: center;
+  /* line-height:80px; */
 }
 
 .section-title .span {

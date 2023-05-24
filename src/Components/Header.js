@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
-import {  IoMenuOutline, IoCloseOutline } from 'react-icons/io5';
+import React, { useState, useEffect } from 'react';
+import { IoMenuOutline, IoCloseOutline } from 'react-icons/io5';
 import { Link } from 'react-router-dom';
 import { aytp } from '../assets/images';
 import { BsFillPersonPlusFill } from 'react-icons/bs';
 import { AiFillHome } from 'react-icons/ai';
+
 const Header = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const [isScrolled, setScrolled] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
@@ -15,8 +17,23 @@ const Header = () => {
     setMenuOpen(false);
   };
 
+  const handleScroll = () => {
+    if (window.scrollY > 100) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <header className="header" data-header>
+    <header className={`header ${isScrolled ? 'active' : ''}`} data-header>
       <div className="container">
         <Link to={'/'} className="logo">
           <img src={aytp} width="162" height="50" alt="EduWeb logo" />
@@ -36,9 +53,8 @@ const Header = () => {
           <ul className="navbar-list">
             <li className="navbar-item">
               <Link to={'/'} className="navbar-link home" data-nav-link onClick={closeNavbar}>
-               <AiFillHome aria-hidden="true" size={20} />
-               <span className="span">Home</span>
-
+                <AiFillHome aria-hidden="true" size={20} />
+                <span className="span">Home</span>
               </Link>
             </li>
             <li className="navbar-item">
@@ -58,14 +74,13 @@ const Header = () => {
             </li>
             <li className="navbar-item">
               <Link to={'/'} className="navbar-link" data-nav-link onClick={closeNavbar}>
-                Patner
+                Partner
               </Link>
             </li>
           </ul>
         </nav>
 
         <div className="header-actions">
-        
           <Link to={'#'} className="btn has-before">
             <BsFillPersonPlusFill aria-hidden="true" />
             <span className="span">Register</span>
