@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../Components/Header'
 import  Hero  from '../Components/Hero'
+import Category from '../Components/Category'
 
 const Home = () => {
   return (
@@ -8,8 +9,8 @@ const Home = () => {
           <Header />
           <main>
               <article>
-          <Hero/>
-                  
+                <Hero/>
+                <Category/>  
               </article>
           </main>
     </div>

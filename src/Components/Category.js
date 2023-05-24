@@ -1,5 +1,6 @@
 import React from 'react';
 import { category1, category2, category3, category4 } from '../assets/images';
+import { Link } from 'react-router-dom';
 
 const Category = () => {
   const categories = [
@@ -49,9 +50,9 @@ const Category = () => {
                   <img src={category.icon} width="40" height="40" loading="lazy" alt="" className="img" />
                 </div>
                 <h3 className="h3">
-                  <a href="#" className="card-title">
+                  <Link to="#" className="card-title">
                     {category.title}
-                  </a>
+                  </Link>
                 </h3>
                 <p className="card-text">{category.text}</p>
                 <span className="card-badge">{category.badge}</span>
