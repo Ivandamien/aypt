@@ -589,7 +589,9 @@ body {
   border-radius: var(--radius-5);
   overflow: hidden;
 }
-
+.course-card-wrapper {
+  padding: 0 15px; 
+}
 .course-card .img-cover { transition: var(--transition-2); }
 
 .course-card:is(:hover, :focus-within) .img-cover { transform: scale(1.1); }
