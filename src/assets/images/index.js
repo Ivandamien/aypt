@@ -11,6 +11,7 @@ import blogShape from './blog-shape.png';
 import category1 from './category-1.svg';
 import category2 from './category-2.svg';
 import category3 from './category-3.svg';
+import category4 from './category-4.svg';
 import course1 from './course-1.jpg';
 import course2 from './course-2.jpg';
 import course3 from './course-3.jpg';
@@ -41,6 +42,7 @@ export {
     category1,
     category2,
     category3,
+    category4,
     course1,
     course2,
     course3,
