@@ -32,6 +32,7 @@
    */
 
   --gradient: linear-gradient(-90deg,hsl(151, 58%, 46%) 0%,hsl(170, 75%, 41%) 100%);
+  --gradient2: linear-gradient(135deg, #8e2de2, #4a00e0)
 
   /**
    * typography
@@ -211,7 +212,8 @@ body {
 }
 
 .btn {
-  background-color: var(--kappel);
+  /* background-color: var(--kappel); */
+  background-color: #6b46c1;
   color: var(--white);
   font-family: var(--ff-league_spartan);
   font-size: var(--fs-4);
@@ -239,6 +241,7 @@ body {
 .btn::before {
   inset: 0;
   background-image: var(--gradient);
+  /* background-image: var(--gradient2); */
   z-index: -1;
   border-radius: inherit;
   transform: translateX(-100%);
@@ -369,6 +372,24 @@ body {
 .nav-close-btn:is(:hover, :focus) {
   background-color: var(--kappel);
   color: var(--white);
+}
+.home {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #6b7280; /* Set your desired color */
+ justify-items:center;
+  /* Adjust spacing as needed */
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.home svg {
+  margin-right: 5px;
+}
+
+.home .span {
+  font-weight: bold;
 }
 
 .navbar-list { padding: 15px 20px; }
@@ -1299,7 +1320,9 @@ body {
 
   .navbar-link {
     color: var(--eerie-black-1);
+    /* color: #6b7280; */
     padding-block: 20px;
+    font-weight: bold;
   }
 
   .header .btn { margin-inline-end: 0; }
