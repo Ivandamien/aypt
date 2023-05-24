@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../Components/Header'
 import  Hero  from '../Components/Hero'
 import Category from '../Components/Category'
+import About from '../Components/About'
 
 const Home = () => {
   return (
@@ -10,7 +11,8 @@ const Home = () => {
           <main>
               <article>
                 <Hero/>
-                <Category/>  
+                <Category /> 
+                <About/>  
               </article>
           </main>
     </div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { IoCheckmarkDoneOutline } from 'react-icons/io5';
 import { aboutBanner, aboutShape1, aboutShape2, aboutShape3, aboutShape4 } from '../assets/images';
 
