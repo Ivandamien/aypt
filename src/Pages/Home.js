@@ -3,6 +3,7 @@ import Header from '../Components/Header'
 import  Hero  from '../Components/Hero'
 import Category from '../Components/Category'
 import About from '../Components/About'
+import Course from '../Components/Course'
 
 const Home = () => {
   return (
@@ -12,7 +13,8 @@ const Home = () => {
               <article>
                 <Hero/>
                 <Category /> 
-                <About/>  
+                <About /> 
+                <Course/>  
               </article>
           </main>
     </div>

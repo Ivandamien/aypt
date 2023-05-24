@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FiClock, FiBook, FiUsers, FiArrowRight } from 'react-icons/fi';
+import { FiClock, FiBook, FiUsers, FiArrowRight, FiStar } from 'react-icons/fi';
 import { course1, course2, course3 } from '../assets/images';
 
 const courses = [
