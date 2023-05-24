@@ -48,72 +48,8 @@ const courses = [
   },
 ];
 
-// const Course = () => {
-    
-//   return (
-//     <section className="section course" id="courses" aria-label="course">
-//       <div className="container">
-//         <p className="section-subtitle">Popular Courses</p>
-//         <h2 className="h2 section-title">Pick A Course To Get Started</h2>
-//         <ul className="grid-list">
-//           {courses.map((course, index) => (
-//             <li key={index}>
-//               <div className="course-card">
-//                 <figure className="card-banner img-holder" style={{ '--width': 370, '--height': 220 }}>
-//                   <img
-//                     src={course.image}
-//                     width="370"
-//                     height="220"
-//                     loading="lazy"
-//                     alt={course.title}
-//                     className="img-cover"
-//                   />
-//                 </figure>
-//                 <div className="abs-badge">
-//                   <FiClock aria-hidden="true" />
-//                   <span className="span">{course.duration}</span>
-//                 </div>
-//                 <div className="card-content">
-//                   <span className="badge">{course.level}</span>
-//                   <h3 className="h3">
-//                     <Link to="#" className="card-title">{course.title}</Link>
-//                   </h3>
-//                   <div className="wrapper">
-//                     <div className="rating-wrapper">
-//                       <FiStar />
-//                       <FiStar />
-//                       <FiStar />
-//                       <FiStar />
-//                       <FiStar />
-//                     </div>
-//                     <p className="rating-text">{course.rating}</p>
-//                   </div>
-//                   <data className="price" value="29">{course.price}</data>
-//                   <ul className="card-meta-list">
-//                     <li className="card-meta-item">
-//                       <FiBook aria-hidden="true" />
-//                       <span className="span">{course.lessonCount}</span>
-//                     </li>
-//                     <li className="card-meta-item">
-//                       <FiUsers aria-hidden="true" />
-//                       <span className="span">{course.studentCount}</span>
-//                     </li>
-//                   </ul>
-//                 </div>
-//               </div>
-//             </li>
-//           ))}
-//         </ul>
-//         <Link to="#" className="btn has-before">
-//           <span className="span">Browse more courses</span>
-//           <FiArrowRight aria-hidden="true" />
-//         </Link>
-//       </div>
-//     </section>
-//   );
-// };
 
-// export default Course;
+
 const Course = () => {
     const settings = {
       dots: true,
