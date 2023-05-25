@@ -4,6 +4,7 @@ import  Hero  from '../Components/Hero'
 import Category from '../Components/Category'
 import About from '../Components/About'
 import Course from '../Components/Course'
+import Video from '../Components/Video'
 
 const Home = () => {
   return (
@@ -14,7 +15,8 @@ const Home = () => {
                 <Hero/>
                 <Category /> 
                 <About /> 
-                <Course/>  
+                  <Course />  
+                  <Video/>
               </article>
           </main>
     </div>

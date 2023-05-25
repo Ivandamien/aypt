@@ -28,6 +28,7 @@ import videoBg from './video-bg.png';
 import videoShape1 from './video-shape-1.png';
 import videoShape2 from './video-shape-2.png';
 import aytp from './aytp.png';
+import academic from './academic.mp4';
 export { 
     aboutBanner,
     aboutShape1,
@@ -58,6 +59,7 @@ export {
     videoBg,
     videoShape1,
     videoShape2,
-    aytp
+    aytp,
+    academic
 
 }
