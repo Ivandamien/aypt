@@ -8,6 +8,7 @@ import Video from '../Components/Video'
 import StatsSection from '../Components/StatsSection'
 import Footer from '../Components/Footer'
 import Top from '../Components/Top'
+import Blog from '../Components/Blog'
 
 const Home = () => {
   return (
@@ -20,7 +21,8 @@ const Home = () => {
                 <About /> 
                 <Course />  
                 <Video/>
-                <StatsSection/>
+                <StatsSection />
+                <Blog/>
               </article>
       </main>
       <Footer />
