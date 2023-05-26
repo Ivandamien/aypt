@@ -8,28 +8,28 @@ const Category = () => {
       color: '170, 75%, 41%',
       icon: category1,
       title: 'Online Degree Programs',
-      text: 'Lorem ipsum dolor consec tur elit adicing sed umod tempor.',
+      text: 'Explore our comprehensive range of online degree programs designed to empower you with in-depth knowledge and skills',
       badge: '7 Courses',
     },
     {
       color: '351, 83%, 61%',
       icon: category2,
       title: 'Non-Degree Programs',
-      text: 'Lorem ipsum dolor consec tur elit adicing sed umod tempor.',
+      text: 'Discover our diverse selection of non-degree programs tailored to meet your specific learning interests and career goals.',
       badge: '4 Courses',
     },
     {
       color: '229, 75%, 58%',
       icon: category3,
       title: 'Off-Campus Programs',
-      text: 'Lorem ipsum dolor consec tur elit adicing sed umod tempor.',
+      text: 'Embark on exciting off-campus programs that offer immersive learning experiences beyond traditional classroom.',
       badge: '8 Courses',
     },
     {
       color: '42, 94%, 55%',
       icon: category4,
       title: 'Hybrid Distance Programs',
-      text: 'Lorem ipsum dolor consec tur elit adicing sed umod tempor.',
+      text: 'Experience the perfect blend of flexibility and interaction with our hybrid distance programs that suits you',
       badge: '8 Courses',
     },
   ];
@@ -41,7 +41,7 @@ const Category = () => {
         <h2 className="h2 section-title">
           Online <span className="span">Classes</span> For Remote Learning.
         </h2>
-        <p className="section-text">Consectetur adipiscing elit sed do eiusmod tempor.</p>
+        <p className="section-text">Unlock your potential and embark on a transformative journey of knowledge with our cutting-edge online learning platform.</p>
         <ul className="grid-list">
           {categories.map((category, index) => (
             <li key={index}>

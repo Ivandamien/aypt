@@ -29,7 +29,7 @@ const About = () => {
             Over 10 Years in <span className="span">Distant learning</span> for Skill Development
           </h2>
           <p className="section-text">
-            Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod ex tempor incididunt labore dolore magna aliquaenim ad minim.
+          With over a decade of experience, we have been at the forefront of distance learning, empowering individuals to develop essential skills. Our proven track record and commitment to excellence ensure a transformative learning experience.
           </p>
 
           <ul className="about-list">
