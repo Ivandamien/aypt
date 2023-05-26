@@ -1,7 +1,8 @@
 import React from 'react';
 import { AiOutlineArrowRight } from 'react-icons/ai';
-import { heroBg, heroBanner1, heroBanner2, heroShape1, heroShape2 } from '../assets/images';
+import { heroBg, heroBanner1, heroBanner2,  heroShape2 } from '../assets/images';
 import { Link } from 'react-router-dom';
+import Tel from './Tel';
 
 const Hero = () => {
   return (
@@ -26,7 +27,8 @@ const Hero = () => {
           <div className="img-holder two" style={{ '--width': 240, '--height': 370 }}>
             <img src={heroBanner2} width="240" height="370" alt="hero banner" className="img-cover" />
           </div>
-          <img src={heroShape1} width="380" height="190" alt="" className="shape hero-shape-1" />
+          {/* <img src={heroShape1} width="380" height="190" alt="" className="shape hero-shape-1" /> */}
+          <Tel width={340} height={120} className="shape hero-shape-1" />
           <img src={heroShape2} width="622" height="551" alt="" className="shape hero-shape-2" />
         </figure>
       </div>

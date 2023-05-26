@@ -1,0 +1,65 @@
+.tel-container {
+    display: flex;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    animation: bounce 1.5s infinite;
+    align-items:center;
+    justify-items:center;
+    border-top-left-radius:50px;
+    border-bottom-right-radius:50px;
+  }
+  
+  .tel-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #ffcccc; */
+    /* border-radius: 50%; */
+    padding: 10px;
+  }
+  
+  .tel-icon-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #ff6666; */
+    background-color: #ffcccc;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .tel-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .tel-title {
+    font-weight: bold;
+    /* color: #333333; */
+    color: #666666;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  
+  .tel-number {
+    color: #ff6666;
+    font-family: inherit;
+    font-size: 25px;
+  }
+  @keyframes bounce {
+    0% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }

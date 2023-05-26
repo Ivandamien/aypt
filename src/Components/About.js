@@ -1,7 +1,6 @@
 import React from 'react';
 import { IoCheckmarkDoneOutline } from 'react-icons/io5';
 import { aboutBanner, aboutShape1, aboutShape2, aboutShape3, aboutShape4 } from '../assets/images';
-
 const About = () => {
   return (
     <section className="section about" id="about" aria-label="about">
@@ -18,6 +17,7 @@ const About = () => {
             />
           </div>
           <img src={aboutShape1} width="360" height="420" loading="lazy" alt="" className="shape about-shape-1" />
+          {/* <Tel width={360} height={420} className="shape about-shape-1" /> */}
           <img src={aboutShape2} width="371" height="220" loading="lazy" alt="" className="shape about-shape-2" />
           <img src={aboutShape3} width="722" height="528" loading="lazy" alt="" className="shape about-shape-3" />
         </figure>
