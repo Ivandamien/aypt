@@ -63,3 +63,8 @@
       transform: translateY(-20px);
     }
   }
+  @media (max-width: 600px) {
+    .tel-container {
+      display: none;
+    }
+  }
