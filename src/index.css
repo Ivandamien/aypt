@@ -968,6 +968,7 @@ body {
 
 .copyright-link {
   color: var(--kappel);
+  /* color: #6b46c1; */
   display: inline-block;
 }
 

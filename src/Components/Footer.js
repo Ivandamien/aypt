@@ -22,7 +22,7 @@ const Footer = () => {
             <span className="span">
                 <FiMapPin size={20} color="lightgrey"  />
             </span>
-            <address className="address">70-80 Upper St Norwich NR2</address>
+            <address className="address">Nairobi, Westland</address>
             </div>
 
             <div className="wrapper">
