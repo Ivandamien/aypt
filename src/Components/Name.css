@@ -1,0 +1,68 @@
+.name-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: var(--width);
+    height: var(--height);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .progress-bar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: relative;
+    box-shadow: 0 0 20px lightyellow;
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: 0 0 10px lightgrey;
+  }
+  
+  .progress-bar:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(135deg);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+    box-shadow: 0 0 10px lightyellow;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+  }
+  
+  .name-title {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+  
+  .name-text {
+    font-size: 12px;
+    color: lightgrey;
+  }
+  
+  /* Hide the Name component on small screens */
+  @media (max-width: 600px) {
+    .name-container {
+      display: none;
+    }
+  }
+  
