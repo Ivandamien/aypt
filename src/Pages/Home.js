@@ -6,6 +6,7 @@ import About from '../Components/About'
 import Course from '../Components/Course'
 import Video from '../Components/Video'
 import StatsSection from '../Components/StatsSection'
+import Footer from '../Components/Footer'
 
 const Home = () => {
   return (
@@ -20,7 +21,8 @@ const Home = () => {
                 <Video/>
                 <StatsSection/>
               </article>
-          </main>
+      </main>
+      <Footer/>
     </div>
   )
 }
