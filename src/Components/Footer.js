@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { aytp } from '../assets/images';
-
+import { FiMapPin, FiPhone, FiMail } from 'react-icons/fi';
 const Footer = () => {
   return (
     <footer className="footer" style={{ backgroundImage: `url('./assets/images/footer-bg.png')` }}>
@@ -14,22 +14,33 @@ const Footer = () => {
             </Link>
 
             <p className="footer-brand-text">
-              Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incidid unt labore dolore.
+            Empower Yourself Through Knowledge. Join Our Online Learning Platform
             </p>
 
+                        
             <div className="wrapper">
-              <span className="span">Add:</span>
-              <address className="address">70-80 Upper St Norwich NR2</address>
+            <span className="span">
+                <FiMapPin size={20} color="lightgrey"  />
+            </span>
+            <address className="address">70-80 Upper St Norwich NR2</address>
             </div>
 
             <div className="wrapper">
-              <span className="span">Call:</span>
-              <a href="tel:+011234567890" className="footer-link">+01 123 4567 890</a>
+            <span className="span">
+                <FiPhone size={20} color="lightgrey" />
+            </span>
+            <Link href="tel:+011234567890" className="footer-link">
+                +01 123 4567 890
+            </Link>
             </div>
 
             <div className="wrapper">
-              <span className="span">Email:</span>
-              <a href="mailto:info@eduweb.com" className="footer-link">info@ngamealms.io</a>
+            <span className="span">
+                <FiMail size={20} color="lightgrey" />
+            </span>
+            <Link to="mailto:info@ngamealms.io" className="footer-link">
+                info@ngamealms.io
+            </Link>
             </div>
           </div>
 

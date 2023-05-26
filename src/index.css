@@ -983,7 +983,8 @@ body {
   position: fixed;
   bottom: 40px;
   right: 30px;
-  background-color: var(--kappel);
+  /* background-color: var(--kappel); */
+  background-color: #6b46c1;
   color: var(--white);
   font-size: 20px;
   padding: 15px;
