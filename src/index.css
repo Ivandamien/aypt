@@ -787,8 +787,28 @@ body {
   color: var(--eerie-black-1);
   text-transform: uppercase;
 }
+/* .stats-card .card-title,
+.stats-card .card-text {
+  font-family: var(--ff-league_spartan);
+}
+.stats-card {
+  text-align: center;
+  padding: 25px;
+  border-radius: var(--radius-10);
+}
 
+.stats-card .card-title {
+  color: hsl(var(--color));
+  font-size: var(--fs-2);
+  line-height: 1.1;
+}
 
+.stats-card .card-text {
+  color: var(--eerie-black-1);
+  text-transform: uppercase;
+}
+
+ */
 
 
 
