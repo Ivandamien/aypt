@@ -25,21 +25,21 @@ const Footer = () => {
             <address className="address">Nairobi, Westland</address>
             </div>
 
-            <div className="wrapper">
+            {/* <div className="wrapper">
             <span className="span">
                 <FiPhone size={20} color="lightgrey" />
             </span>
             <Link href="tel:+011234567890" className="footer-link">
                 +01 123 4567 890
             </Link>
-            </div>
+            </div> */}
 
             <div className="wrapper">
             <span className="span">
                 <FiMail size={20} color="lightgrey" />
             </span>
             <Link to="mailto:info@ngamealms.io" className="footer-link">
-                info@ngamealms.io
+                hello@ngameagames.io
             </Link>
             </div>
           </div>

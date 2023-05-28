@@ -17,7 +17,7 @@ const Tel = ({ width, height, className }) => {
       </div>
       <div className="tel-info-container">
         <h1 className="tel-title">Online Support</h1>
-        <p className="tel-number">+012(345)6789</p>
+        <p className="tel-number">hello@ngameagames.io</p>
       </div>
     </div>
   );
